@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Shell
+    x:Class="HueApp_Fedde_en_Siem.AppShell"
+    xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:local="clr-namespace:HueApp_Fedde_en_Siem"
+    Shell.FlyoutBehavior="Disabled"
+    Title="HueApp_Fedde_en_Siem">
+
+    <ShellContent
+        Title="Hue App"
+        ContentTemplate="{DataTemplate local:MainPage}"
+        Route="MainPage" />
+
+</Shell>
