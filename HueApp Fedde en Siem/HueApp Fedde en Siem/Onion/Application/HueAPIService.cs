@@ -1,4 +1,5 @@
-﻿using System;
+﻿using HueApp_Fedde_en_Siem.Onion.Interface;
+using System;
 using System.Collections.Generic;
 using System.Diagnostics;
 using System.Linq;
@@ -7,11 +8,11 @@ using System.Text.Json;
 using System.Text.Json.Serialization;
 using System.Threading.Tasks;
 
-namespace HueApp_Fedde_en_Siem {
-    internal class HueAPI {
+namespace HueApp_Fedde_en_Siem.Onion.Application {
+    internal class HueAPIService : IHueService {
         static readonly HttpClient client = new HttpClient();
 
-        public static async Task SendCommand(string bridgeIp, string username, string lampId, string jsonPayload) {
+        public async Task SendCommandAsync(string bridgeIp, string username, string lampId, string jsonPayload) {
             try {
                 string url = $"http://{bridgeIp}/api/{username}/lights/{lampId}/state";
 
@@ -29,7 +30,7 @@ namespace HueApp_Fedde_en_Siem {
             }
         }
 
-        public static async Task<string> GetLampState(string bridgeIp, string username, string lampId) {
+        public async Task<string> GetLampStateAsync(string bridgeIp, string username, string lampId) {
             try {
                 string url = $"http://{bridgeIp}/api/{username}/lights/{lampId}";
                 var response = await client.GetAsync(url);
@@ -43,25 +44,6 @@ namespace HueApp_Fedde_en_Siem {
                 Debug.WriteLine($"Fout bij het ophalen van de lampstatus: {e.Message}");
                 return null;
             }
-        }
-    }
-
-    public class HueLampResponse {
-        [JsonPropertyName("state")]
-        public LampState State { get; set; }
-
-        public class LampState {
-            [JsonPropertyName("on")]
-            public bool On { get; set; }
-
-            [JsonPropertyName("bri")]
-            public int Bri { get; set; }
-
-            [JsonPropertyName("hue")]
-            public int Hue { get; set; }
-
-            [JsonPropertyName("sat")]
-            public int Sat { get; set; }
         }
     }
 }

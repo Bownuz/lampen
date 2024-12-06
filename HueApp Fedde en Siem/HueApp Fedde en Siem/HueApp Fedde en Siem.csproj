@@ -79,6 +79,7 @@
 
 	<ItemGroup>
 	  <Folder Include="LampPopups\" />
+	  <Folder Include="Onion\Infrastructure\" />
 	</ItemGroup>
 
 </Project>

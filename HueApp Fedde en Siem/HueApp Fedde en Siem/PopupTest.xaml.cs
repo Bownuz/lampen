@@ -1,5 +1,7 @@
 namespace HueApp_Fedde_en_Siem;
 using CommunityToolkit.Maui.Views;
+using HueApp_Fedde_en_Siem.Onion.Application;
+using HueApp_Fedde_en_Siem.Onion.Domain;
 using System.Text.Json;
 
 public partial class PopupTest : Popup {
@@ -11,7 +13,7 @@ public partial class PopupTest : Popup {
     private int hue;
     private int saturation;
 
-    private HueAPI HueAPI = new HueAPI();
+    private HueAPIService HueAPI = new HueAPIService();
     public PopupTest(string bridgeIp, string username, string lampId) {
         InitializeComponent();
 
@@ -28,7 +30,7 @@ public partial class PopupTest : Popup {
 
     private async void InitializeLampState() {
         try {
-            string lampStateJson = await HueAPI.GetLampState(bridgeIp, username, lampId);
+            string lampStateJson = await HueAPI.GetLampStateAsync(bridgeIp, username, lampId);
             Console.WriteLine(lampStateJson);
             if (!string.IsNullOrEmpty(lampStateJson)) {
                 // Parse JSON naar een object
@@ -107,7 +109,7 @@ public partial class PopupTest : Popup {
             string jsonPayload = $"{{\"on\": {on_off.ToString().ToLower()}, \"bri\": {brightness}, \"hue\": {hue}, \"sat\": {saturation}}}";
 
             // Stuur het commando naar de Hue API
-            await HueAPI.SendCommand(bridgeIp, username, lampId, jsonPayload);
+            await HueAPI.SendCommandAsync(bridgeIp, username, lampId, jsonPayload);
 
             // Log voor debuggen
             Console.WriteLine($"Lampstate updated with: {jsonPayload}");
