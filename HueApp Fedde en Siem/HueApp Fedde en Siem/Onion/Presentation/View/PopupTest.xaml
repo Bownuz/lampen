@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<mct:Popup xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+           xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+           xmlns:mct="clr-namespace:CommunityToolkit.Maui.Views;assembly=CommunityToolkit.Maui"
+           xmlns:viewModels="clr-namespace:HueApp_Fedde_en_Siem.Onion.Presentation.ViewModels"
+           x:Class="HueApp_Fedde_en_Siem.PopupTest"
+           Size="500,700">
+
+    <mct:Popup.BindingContext>
+        <viewModels:PopupTestViewModel />
+    </mct:Popup.BindingContext>
+
+    <Frame BackgroundColor="#f9f9f9" Padding="20" CornerRadius="15">
+        <VerticalStackLayout Spacing="20">
+      
+            <Label Text="Lamp Control" 
+                   FontSize="28" 
+                   HorizontalOptions="Center" 
+                   TextColor="#333" 
+                   FontAttributes="Bold"/>
+
+            <Frame Padding="15" CornerRadius="10" BackgroundColor="#ffffff" HasShadow="True">
+                <VerticalStackLayout Spacing="10">
+                    <Label Text="Brightness" 
+                           FontSize="16" 
+                           TextColor="#444" 
+                           HorizontalOptions="Center" />
+                    <Slider Minimum="1"
+                            Maximum="254"
+                            Value="{Binding Brightness, Mode=TwoWay}"
+                            ThumbColor="#FF5733"
+                            MinimumTrackColor="#4CAF50"
+                            MaximumTrackColor="#CCCCCC"/>
+                    <Label Text="{Binding Brightness, StringFormat='Current brightness: {0}'}" 
+                           FontSize="14" 
+                           TextColor="#666" 
+                           HorizontalOptions="Center" />
+                </VerticalStackLayout>
+            </Frame>
+            
+            <Frame Padding="15" CornerRadius="10" BackgroundColor="#ffffff" HasShadow="True">
+                <VerticalStackLayout Spacing="10">
+                    <Label Text="Hue" 
+                           FontSize="16" 
+                           TextColor="#444" 
+                           HorizontalOptions="Center" />
+                    <Slider Minimum="1"
+                            Maximum="65535"
+                            Value="{Binding Hue, Mode=TwoWay}"
+                            ThumbColor="#FF5733"
+                            MinimumTrackColor="#4CAF50"
+                            MaximumTrackColor="#CCCCCC"/>
+                    <Label Text="{Binding Hue, StringFormat='Current hue: {0}'}" 
+                           FontSize="14" 
+                           TextColor="#666" 
+                           HorizontalOptions="Center" />
+                </VerticalStackLayout>
+            </Frame>
+
+            <Frame Padding="15" CornerRadius="10" BackgroundColor="#ffffff" HasShadow="True">
+                <VerticalStackLayout Spacing="10">
+                    <Label Text="Saturation" 
+                           FontSize="16" 
+                           TextColor="#444" 
+                           HorizontalOptions="Center" />
+                    <Slider Maximum="254" 
+                            Minimum="1" 
+                            Value="{Binding Saturation, Mode=TwoWay}" 
+                            ThumbColor="#FF5733" 
+                            MinimumTrackColor="#4CAF50"
+                            MaximumTrackColor="#CCCCCC"/>
+                    <Label Text="{Binding Saturation, StringFormat='Current saturation: {0}'}" 
+                           FontSize="14" 
+                           TextColor="#666" 
+                           HorizontalOptions="Center" />
+                </VerticalStackLayout>
+            </Frame>
+
+            <Button Text="{Binding LampToggleText}" 
+                    Command="{Binding ToggleLampCommand}" 
+                    TextColor="Black" 
+                    FontAttributes="Bold" 
+                    CornerRadius="10" 
+                    HorizontalOptions="Fill" 
+                    HeightRequest="50">
+                <Button.Triggers>
+                    <DataTrigger TargetType="Button" Binding="{Binding IsLampOn}" Value="true">
+                        <Setter Property="BackgroundColor" Value="#4caf50" />
+                    </DataTrigger>
+                    <DataTrigger TargetType="Button" Binding="{Binding IsLampOn}" Value="false">
+                        <Setter Property="BackgroundColor" Value="#f44336" />
+                    </DataTrigger>
+                </Button.Triggers>
+            </Button>
+
+            <VerticalStackLayout Spacing="10" HorizontalOptions="Center">
+                <Label Text="Selected Color:"   
+                       FontSize="16" 
+                       TextColor="#444" 
+                       HorizontalOptions="Center" />
+                <Frame HeightRequest="50" 
+                       WidthRequest="50" 
+                       BackgroundColor="{Binding SelectedColor}" 
+                       CornerRadius="25" 
+                       BorderColor="#ccc" 
+                       HorizontalOptions="Center" />
+            </VerticalStackLayout>
+            
+        </VerticalStackLayout>
+    </Frame>
+</mct:Popup>

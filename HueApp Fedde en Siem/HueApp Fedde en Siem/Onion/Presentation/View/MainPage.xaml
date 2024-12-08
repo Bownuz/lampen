@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:viewModels="clr-namespace:HueApp_Fedde_en_Siem.Onion.Presentation.ViewModels"
+             x:Class="HueApp_Fedde_en_Siem.MainPage">
+
+    <ContentPage.BindingContext>
+        <viewModels:MainPageViewModel />
+    </ContentPage.BindingContext>
+
+    <ScrollView>
+        <VerticalStackLayout Padding="30,0" Spacing="25">
+            <Label Text="connected lamps" FontSize="24" HorizontalOptions="Center"/>
+            <Button Text="Lamp 10" Command="{Binding LampCommand}" CommandParameter="10" />
+            <Button Text="Lamp 11" Command="{Binding LampCommand}" CommandParameter="11" />
+            <Button Text="Lamp 12" Command="{Binding LampCommand}" CommandParameter="12" />
+            <Button Text="Lamp 14" Command="{Binding LampCommand}" CommandParameter="14" />
+            <Button Text="Lamp 15" Command="{Binding LampCommand}" CommandParameter="15" />
+            <Button Text="Lamp 16" Command="{Binding LampCommand}" CommandParameter="16" />
+            <Button Text="Lamp 17" Command="{Binding LampCommand}" CommandParameter="17" />
+            <Button Text="Lamp 18" Command="{Binding LampCommand}" CommandParameter="18" />
+        </VerticalStackLayout>
+    </ScrollView>
+</ContentPage>
