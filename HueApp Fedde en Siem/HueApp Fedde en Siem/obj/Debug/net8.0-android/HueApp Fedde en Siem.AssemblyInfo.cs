@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("HueApp Fedde en Siem")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0+e44cd0100f333b30cc7617ba8975cf2c2ac66384")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0+d194712e252be7758c83e73eebd09df079002965")]
 [assembly: System.Reflection.AssemblyProductAttribute("HueApp Fedde en Siem")]
 [assembly: System.Reflection.AssemblyTitleAttribute("HueApp Fedde en Siem")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
