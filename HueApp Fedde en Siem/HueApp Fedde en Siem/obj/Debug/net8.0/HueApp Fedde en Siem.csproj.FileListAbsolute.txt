@@ -1,0 +1,19 @@
+D:\School\Gitkraken\lampen\HueApp Fedde en Siem\HueApp Fedde en Siem\bin\Debug\net8.0\xunit.runner.visualstudio.testadapter.dll
+D:\School\Gitkraken\lampen\HueApp Fedde en Siem\HueApp Fedde en Siem\bin\Debug\net8.0\xunit.runner.reporters.netcoreapp10.dll
+D:\School\Gitkraken\lampen\HueApp Fedde en Siem\HueApp Fedde en Siem\bin\Debug\net8.0\xunit.runner.utility.netcoreapp10.dll
+D:\School\Gitkraken\lampen\HueApp Fedde en Siem\HueApp Fedde en Siem\bin\Debug\net8.0\HueApp Fedde en Siem.deps.json
+D:\School\Gitkraken\lampen\HueApp Fedde en Siem\HueApp Fedde en Siem\bin\Debug\net8.0\HueApp Fedde en Siem.runtimeconfig.json
+D:\School\Gitkraken\lampen\HueApp Fedde en Siem\HueApp Fedde en Siem\bin\Debug\net8.0\HueApp Fedde en Siem.dll
+D:\School\Gitkraken\lampen\HueApp Fedde en Siem\HueApp Fedde en Siem\bin\Debug\net8.0\HueApp Fedde en Siem.pdb
+D:\School\Gitkraken\lampen\HueApp Fedde en Siem\HueApp Fedde en Siem\obj\Debug\net8.0\HueApp Fedde en Siem.csproj.AssemblyReference.cache
+D:\School\Gitkraken\lampen\HueApp Fedde en Siem\HueApp Fedde en Siem\obj\Debug\net8.0\HueApp Fedde en Siem.GeneratedMSBuildEditorConfig.editorconfig
+D:\School\Gitkraken\lampen\HueApp Fedde en Siem\HueApp Fedde en Siem\obj\Debug\net8.0\HueApp Fedde en Siem.AssemblyInfoInputs.cache
+D:\School\Gitkraken\lampen\HueApp Fedde en Siem\HueApp Fedde en Siem\obj\Debug\net8.0\HueApp Fedde en Siem.AssemblyInfo.cs
+D:\School\Gitkraken\lampen\HueApp Fedde en Siem\HueApp Fedde en Siem\obj\Debug\net8.0\HueApp Fedde en Siem.csproj.CoreCompileInputs.cache
+D:\School\Gitkraken\lampen\HueApp Fedde en Siem\HueApp Fedde en Siem\obj\Debug\net8.0\HueApp Fedde en Siem.sourcelink.json
+D:\School\Gitkraken\lampen\HueApp Fedde en Siem\HueApp Fedde en Siem\obj\Debug\net8.0\XamlC.stamp
+D:\School\Gitkraken\lampen\HueApp Fedde en Siem\HueApp Fedde en Siem\obj\Debug\net8.0\HueApp Fedde en Siem.dll
+D:\School\Gitkraken\lampen\HueApp Fedde en Siem\HueApp Fedde en Siem\obj\Debug\net8.0\refint\HueApp Fedde en Siem.dll
+D:\School\Gitkraken\lampen\HueApp Fedde en Siem\HueApp Fedde en Siem\obj\Debug\net8.0\HueApp Fedde en Siem.pdb
+D:\School\Gitkraken\lampen\HueApp Fedde en Siem\HueApp Fedde en Siem\obj\Debug\net8.0\HueApp Fedde en Siem.genruntimeconfig.cache
+D:\School\Gitkraken\lampen\HueApp Fedde en Siem\HueApp Fedde en Siem\obj\Debug\net8.0\ref\HueApp Fedde en Siem.dll

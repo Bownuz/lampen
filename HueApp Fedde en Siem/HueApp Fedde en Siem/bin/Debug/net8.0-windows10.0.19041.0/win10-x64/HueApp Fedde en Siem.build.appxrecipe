@@ -10,218 +10,227 @@
     <PackageArchitecture>x64</PackageArchitecture>
     <PackageIdentityName>com.companyname.hueappfeddeensiem</PackageIdentityName>
     <PackageIdentityPublisher>CN=User Name</PackageIdentityPublisher>
-    <IntermediateOutputPath>C:\Users\fedde\Downloads\HueApp Fedde en Siem\HueApp Fedde en Siem\HueApp Fedde en Siem\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\</IntermediateOutputPath>
+    <IntermediateOutputPath>D:\School\Gitkraken\lampen\HueApp Fedde en Siem\HueApp Fedde en Siem\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\</IntermediateOutputPath>
     <RemoteDeploymentType>CopyToDevice</RemoteDeploymentType>
     <PackageRegistrationPath></PackageRegistrationPath>
     <RemoveNonLayoutFiles>false</RemoveNonLayoutFiles>
     <DeployOptionalPackages>false</DeployOptionalPackages>
     <WindowsSdkPath>C:\Program Files %28x86%29\Windows Kits\10\</WindowsSdkPath>
-    <LayoutDir>C:\Users\fedde\Downloads\HueApp Fedde en Siem\HueApp Fedde en Siem\HueApp Fedde en Siem\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\AppX</LayoutDir>
+    <LayoutDir>D:\School\Gitkraken\lampen\HueApp Fedde en Siem\HueApp Fedde en Siem\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\AppX</LayoutDir>
   </PropertyGroup>
   <ItemGroup>
-    <AppXManifest Include="C:\Users\fedde\Downloads\HueApp Fedde en Siem\HueApp Fedde en Siem\HueApp Fedde en Siem\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\AppxManifest.xml">
+    <AppXManifest Include="D:\School\Gitkraken\lampen\HueApp Fedde en Siem\HueApp Fedde en Siem\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
-    <AppxPackagedFile Include="C:\Users\fedde\Downloads\HueApp Fedde en Siem\HueApp Fedde en Siem\HueApp Fedde en Siem\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\resources.pri">
+    <AppxPackagedFile Include="D:\School\Gitkraken\lampen\HueApp Fedde en Siem\HueApp Fedde en Siem\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\resources.pri">
       <PackagePath>resources.pri</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\fedde\Downloads\HueApp Fedde en Siem\HueApp Fedde en Siem\HueApp Fedde en Siem\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\HueApp Fedde en Siem.runtimeconfig.json">
+    <AppxPackagedFile Include="D:\School\Gitkraken\lampen\HueApp Fedde en Siem\HueApp Fedde en Siem\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\HueApp Fedde en Siem.runtimeconfig.json">
       <PackagePath>HueApp Fedde en Siem.runtimeconfig.json</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\fedde\Downloads\HueApp Fedde en Siem\HueApp Fedde en Siem\HueApp Fedde en Siem\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\HueApp Fedde en Siem.dll">
+    <AppxPackagedFile Include="D:\School\Gitkraken\lampen\HueApp Fedde en Siem\HueApp Fedde en Siem\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\HueApp Fedde en Siem.dll">
       <PackagePath>HueApp Fedde en Siem.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\fedde\Downloads\HueApp Fedde en Siem\HueApp Fedde en Siem\HueApp Fedde en Siem\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\apphost.exe">
+    <AppxPackagedFile Include="D:\School\Gitkraken\lampen\HueApp Fedde en Siem\HueApp Fedde en Siem\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\apphost.exe">
       <PackagePath>HueApp Fedde en Siem.exe</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\fedde\Downloads\HueApp Fedde en Siem\HueApp Fedde en Siem\HueApp Fedde en Siem\Resources\Raw\AboutAssets.txt">
+    <AppxPackagedFile Include="D:\School\Gitkraken\lampen\HueApp Fedde en Siem\HueApp Fedde en Siem\Resources\Raw\AboutAssets.txt">
       <PackagePath>AboutAssets.txt</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\fedde\Downloads\HueApp Fedde en Siem\HueApp Fedde en Siem\HueApp Fedde en Siem\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-100.png">
+    <AppxPackagedFile Include="D:\School\Gitkraken\lampen\HueApp Fedde en Siem\HueApp Fedde en Siem\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-100.png">
       <PackagePath>splashSplashScreen.scale-100.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\fedde\Downloads\HueApp Fedde en Siem\HueApp Fedde en Siem\HueApp Fedde en Siem\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-125.png">
+    <AppxPackagedFile Include="D:\School\Gitkraken\lampen\HueApp Fedde en Siem\HueApp Fedde en Siem\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-125.png">
       <PackagePath>splashSplashScreen.scale-125.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\fedde\Downloads\HueApp Fedde en Siem\HueApp Fedde en Siem\HueApp Fedde en Siem\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-150.png">
+    <AppxPackagedFile Include="D:\School\Gitkraken\lampen\HueApp Fedde en Siem\HueApp Fedde en Siem\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-150.png">
       <PackagePath>splashSplashScreen.scale-150.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\fedde\Downloads\HueApp Fedde en Siem\HueApp Fedde en Siem\HueApp Fedde en Siem\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-200.png">
+    <AppxPackagedFile Include="D:\School\Gitkraken\lampen\HueApp Fedde en Siem\HueApp Fedde en Siem\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-200.png">
       <PackagePath>splashSplashScreen.scale-200.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\fedde\Downloads\HueApp Fedde en Siem\HueApp Fedde en Siem\HueApp Fedde en Siem\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-400.png">
+    <AppxPackagedFile Include="D:\School\Gitkraken\lampen\HueApp Fedde en Siem\HueApp Fedde en Siem\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-400.png">
       <PackagePath>splashSplashScreen.scale-400.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\fedde\Downloads\HueApp Fedde en Siem\HueApp Fedde en Siem\HueApp Fedde en Siem\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\f\OpenSans-Regular.ttf">
+    <AppxPackagedFile Include="D:\School\Gitkraken\lampen\HueApp Fedde en Siem\HueApp Fedde en Siem\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\f\OpenSans-Regular.ttf">
       <PackagePath>OpenSans-Regular.ttf</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\fedde\Downloads\HueApp Fedde en Siem\HueApp Fedde en Siem\HueApp Fedde en Siem\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\f\OpenSans-Semibold.ttf">
+    <AppxPackagedFile Include="D:\School\Gitkraken\lampen\HueApp Fedde en Siem\HueApp Fedde en Siem\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\f\OpenSans-Semibold.ttf">
       <PackagePath>OpenSans-Semibold.ttf</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\fedde\Downloads\HueApp Fedde en Siem\HueApp Fedde en Siem\HueApp Fedde en Siem\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appicon.ico">
+    <AppxPackagedFile Include="D:\School\Gitkraken\lampen\HueApp Fedde en Siem\HueApp Fedde en Siem\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appicon.ico">
       <PackagePath>appicon.ico</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\fedde\Downloads\HueApp Fedde en Siem\HueApp Fedde en Siem\HueApp Fedde en Siem\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-100.png">
+    <AppxPackagedFile Include="D:\School\Gitkraken\lampen\HueApp Fedde en Siem\HueApp Fedde en Siem\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-100.png">
       <PackagePath>appiconLargeTile.scale-100.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\fedde\Downloads\HueApp Fedde en Siem\HueApp Fedde en Siem\HueApp Fedde en Siem\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-125.png">
+    <AppxPackagedFile Include="D:\School\Gitkraken\lampen\HueApp Fedde en Siem\HueApp Fedde en Siem\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-125.png">
       <PackagePath>appiconLargeTile.scale-125.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\fedde\Downloads\HueApp Fedde en Siem\HueApp Fedde en Siem\HueApp Fedde en Siem\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-150.png">
+    <AppxPackagedFile Include="D:\School\Gitkraken\lampen\HueApp Fedde en Siem\HueApp Fedde en Siem\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-150.png">
       <PackagePath>appiconLargeTile.scale-150.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\fedde\Downloads\HueApp Fedde en Siem\HueApp Fedde en Siem\HueApp Fedde en Siem\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-200.png">
+    <AppxPackagedFile Include="D:\School\Gitkraken\lampen\HueApp Fedde en Siem\HueApp Fedde en Siem\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-200.png">
       <PackagePath>appiconLargeTile.scale-200.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\fedde\Downloads\HueApp Fedde en Siem\HueApp Fedde en Siem\HueApp Fedde en Siem\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-400.png">
+    <AppxPackagedFile Include="D:\School\Gitkraken\lampen\HueApp Fedde en Siem\HueApp Fedde en Siem\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-400.png">
       <PackagePath>appiconLargeTile.scale-400.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\fedde\Downloads\HueApp Fedde en Siem\HueApp Fedde en Siem\HueApp Fedde en Siem\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-16.png">
+    <AppxPackagedFile Include="D:\School\Gitkraken\lampen\HueApp Fedde en Siem\HueApp Fedde en Siem\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-16.png">
       <PackagePath>appiconLogo.altform-lightunplated_targetsize-16.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\fedde\Downloads\HueApp Fedde en Siem\HueApp Fedde en Siem\HueApp Fedde en Siem\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-24.png">
+    <AppxPackagedFile Include="D:\School\Gitkraken\lampen\HueApp Fedde en Siem\HueApp Fedde en Siem\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-24.png">
       <PackagePath>appiconLogo.altform-lightunplated_targetsize-24.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\fedde\Downloads\HueApp Fedde en Siem\HueApp Fedde en Siem\HueApp Fedde en Siem\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-256.png">
+    <AppxPackagedFile Include="D:\School\Gitkraken\lampen\HueApp Fedde en Siem\HueApp Fedde en Siem\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-256.png">
       <PackagePath>appiconLogo.altform-lightunplated_targetsize-256.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\fedde\Downloads\HueApp Fedde en Siem\HueApp Fedde en Siem\HueApp Fedde en Siem\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-32.png">
+    <AppxPackagedFile Include="D:\School\Gitkraken\lampen\HueApp Fedde en Siem\HueApp Fedde en Siem\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-32.png">
       <PackagePath>appiconLogo.altform-lightunplated_targetsize-32.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\fedde\Downloads\HueApp Fedde en Siem\HueApp Fedde en Siem\HueApp Fedde en Siem\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-48.png">
+    <AppxPackagedFile Include="D:\School\Gitkraken\lampen\HueApp Fedde en Siem\HueApp Fedde en Siem\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-48.png">
       <PackagePath>appiconLogo.altform-lightunplated_targetsize-48.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\fedde\Downloads\HueApp Fedde en Siem\HueApp Fedde en Siem\HueApp Fedde en Siem\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-16.png">
+    <AppxPackagedFile Include="D:\School\Gitkraken\lampen\HueApp Fedde en Siem\HueApp Fedde en Siem\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-16.png">
       <PackagePath>appiconLogo.altform-unplated_targetsize-16.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\fedde\Downloads\HueApp Fedde en Siem\HueApp Fedde en Siem\HueApp Fedde en Siem\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-24.png">
+    <AppxPackagedFile Include="D:\School\Gitkraken\lampen\HueApp Fedde en Siem\HueApp Fedde en Siem\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-24.png">
       <PackagePath>appiconLogo.altform-unplated_targetsize-24.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\fedde\Downloads\HueApp Fedde en Siem\HueApp Fedde en Siem\HueApp Fedde en Siem\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-256.png">
+    <AppxPackagedFile Include="D:\School\Gitkraken\lampen\HueApp Fedde en Siem\HueApp Fedde en Siem\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-256.png">
       <PackagePath>appiconLogo.altform-unplated_targetsize-256.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\fedde\Downloads\HueApp Fedde en Siem\HueApp Fedde en Siem\HueApp Fedde en Siem\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-32.png">
+    <AppxPackagedFile Include="D:\School\Gitkraken\lampen\HueApp Fedde en Siem\HueApp Fedde en Siem\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-32.png">
       <PackagePath>appiconLogo.altform-unplated_targetsize-32.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\fedde\Downloads\HueApp Fedde en Siem\HueApp Fedde en Siem\HueApp Fedde en Siem\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-48.png">
+    <AppxPackagedFile Include="D:\School\Gitkraken\lampen\HueApp Fedde en Siem\HueApp Fedde en Siem\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-48.png">
       <PackagePath>appiconLogo.altform-unplated_targetsize-48.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\fedde\Downloads\HueApp Fedde en Siem\HueApp Fedde en Siem\HueApp Fedde en Siem\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-100.png">
+    <AppxPackagedFile Include="D:\School\Gitkraken\lampen\HueApp Fedde en Siem\HueApp Fedde en Siem\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-100.png">
       <PackagePath>appiconLogo.scale-100.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\fedde\Downloads\HueApp Fedde en Siem\HueApp Fedde en Siem\HueApp Fedde en Siem\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-125.png">
+    <AppxPackagedFile Include="D:\School\Gitkraken\lampen\HueApp Fedde en Siem\HueApp Fedde en Siem\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-125.png">
       <PackagePath>appiconLogo.scale-125.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\fedde\Downloads\HueApp Fedde en Siem\HueApp Fedde en Siem\HueApp Fedde en Siem\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-150.png">
+    <AppxPackagedFile Include="D:\School\Gitkraken\lampen\HueApp Fedde en Siem\HueApp Fedde en Siem\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-150.png">
       <PackagePath>appiconLogo.scale-150.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\fedde\Downloads\HueApp Fedde en Siem\HueApp Fedde en Siem\HueApp Fedde en Siem\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-200.png">
+    <AppxPackagedFile Include="D:\School\Gitkraken\lampen\HueApp Fedde en Siem\HueApp Fedde en Siem\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-200.png">
       <PackagePath>appiconLogo.scale-200.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\fedde\Downloads\HueApp Fedde en Siem\HueApp Fedde en Siem\HueApp Fedde en Siem\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-400.png">
+    <AppxPackagedFile Include="D:\School\Gitkraken\lampen\HueApp Fedde en Siem\HueApp Fedde en Siem\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-400.png">
       <PackagePath>appiconLogo.scale-400.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\fedde\Downloads\HueApp Fedde en Siem\HueApp Fedde en Siem\HueApp Fedde en Siem\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-16.png">
+    <AppxPackagedFile Include="D:\School\Gitkraken\lampen\HueApp Fedde en Siem\HueApp Fedde en Siem\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-16.png">
       <PackagePath>appiconLogo.targetsize-16.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\fedde\Downloads\HueApp Fedde en Siem\HueApp Fedde en Siem\HueApp Fedde en Siem\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-24.png">
+    <AppxPackagedFile Include="D:\School\Gitkraken\lampen\HueApp Fedde en Siem\HueApp Fedde en Siem\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-24.png">
       <PackagePath>appiconLogo.targetsize-24.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\fedde\Downloads\HueApp Fedde en Siem\HueApp Fedde en Siem\HueApp Fedde en Siem\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-256.png">
+    <AppxPackagedFile Include="D:\School\Gitkraken\lampen\HueApp Fedde en Siem\HueApp Fedde en Siem\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-256.png">
       <PackagePath>appiconLogo.targetsize-256.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\fedde\Downloads\HueApp Fedde en Siem\HueApp Fedde en Siem\HueApp Fedde en Siem\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-32.png">
+    <AppxPackagedFile Include="D:\School\Gitkraken\lampen\HueApp Fedde en Siem\HueApp Fedde en Siem\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-32.png">
       <PackagePath>appiconLogo.targetsize-32.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\fedde\Downloads\HueApp Fedde en Siem\HueApp Fedde en Siem\HueApp Fedde en Siem\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-48.png">
+    <AppxPackagedFile Include="D:\School\Gitkraken\lampen\HueApp Fedde en Siem\HueApp Fedde en Siem\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-48.png">
       <PackagePath>appiconLogo.targetsize-48.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\fedde\Downloads\HueApp Fedde en Siem\HueApp Fedde en Siem\HueApp Fedde en Siem\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-100.png">
+    <AppxPackagedFile Include="D:\School\Gitkraken\lampen\HueApp Fedde en Siem\HueApp Fedde en Siem\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-100.png">
       <PackagePath>appiconMediumTile.scale-100.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\fedde\Downloads\HueApp Fedde en Siem\HueApp Fedde en Siem\HueApp Fedde en Siem\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-125.png">
+    <AppxPackagedFile Include="D:\School\Gitkraken\lampen\HueApp Fedde en Siem\HueApp Fedde en Siem\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-125.png">
       <PackagePath>appiconMediumTile.scale-125.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\fedde\Downloads\HueApp Fedde en Siem\HueApp Fedde en Siem\HueApp Fedde en Siem\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-150.png">
+    <AppxPackagedFile Include="D:\School\Gitkraken\lampen\HueApp Fedde en Siem\HueApp Fedde en Siem\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-150.png">
       <PackagePath>appiconMediumTile.scale-150.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\fedde\Downloads\HueApp Fedde en Siem\HueApp Fedde en Siem\HueApp Fedde en Siem\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-200.png">
+    <AppxPackagedFile Include="D:\School\Gitkraken\lampen\HueApp Fedde en Siem\HueApp Fedde en Siem\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-200.png">
       <PackagePath>appiconMediumTile.scale-200.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\fedde\Downloads\HueApp Fedde en Siem\HueApp Fedde en Siem\HueApp Fedde en Siem\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-400.png">
+    <AppxPackagedFile Include="D:\School\Gitkraken\lampen\HueApp Fedde en Siem\HueApp Fedde en Siem\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-400.png">
       <PackagePath>appiconMediumTile.scale-400.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\fedde\Downloads\HueApp Fedde en Siem\HueApp Fedde en Siem\HueApp Fedde en Siem\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-100.png">
+    <AppxPackagedFile Include="D:\School\Gitkraken\lampen\HueApp Fedde en Siem\HueApp Fedde en Siem\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-100.png">
       <PackagePath>appiconSmallTile.scale-100.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\fedde\Downloads\HueApp Fedde en Siem\HueApp Fedde en Siem\HueApp Fedde en Siem\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-125.png">
+    <AppxPackagedFile Include="D:\School\Gitkraken\lampen\HueApp Fedde en Siem\HueApp Fedde en Siem\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-125.png">
       <PackagePath>appiconSmallTile.scale-125.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\fedde\Downloads\HueApp Fedde en Siem\HueApp Fedde en Siem\HueApp Fedde en Siem\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-150.png">
+    <AppxPackagedFile Include="D:\School\Gitkraken\lampen\HueApp Fedde en Siem\HueApp Fedde en Siem\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-150.png">
       <PackagePath>appiconSmallTile.scale-150.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\fedde\Downloads\HueApp Fedde en Siem\HueApp Fedde en Siem\HueApp Fedde en Siem\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-200.png">
+    <AppxPackagedFile Include="D:\School\Gitkraken\lampen\HueApp Fedde en Siem\HueApp Fedde en Siem\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-200.png">
       <PackagePath>appiconSmallTile.scale-200.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\fedde\Downloads\HueApp Fedde en Siem\HueApp Fedde en Siem\HueApp Fedde en Siem\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-400.png">
+    <AppxPackagedFile Include="D:\School\Gitkraken\lampen\HueApp Fedde en Siem\HueApp Fedde en Siem\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-400.png">
       <PackagePath>appiconSmallTile.scale-400.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\fedde\Downloads\HueApp Fedde en Siem\HueApp Fedde en Siem\HueApp Fedde en Siem\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-100.png">
+    <AppxPackagedFile Include="D:\School\Gitkraken\lampen\HueApp Fedde en Siem\HueApp Fedde en Siem\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-100.png">
       <PackagePath>appiconStoreLogo.scale-100.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\fedde\Downloads\HueApp Fedde en Siem\HueApp Fedde en Siem\HueApp Fedde en Siem\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-125.png">
+    <AppxPackagedFile Include="D:\School\Gitkraken\lampen\HueApp Fedde en Siem\HueApp Fedde en Siem\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-125.png">
       <PackagePath>appiconStoreLogo.scale-125.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\fedde\Downloads\HueApp Fedde en Siem\HueApp Fedde en Siem\HueApp Fedde en Siem\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-150.png">
+    <AppxPackagedFile Include="D:\School\Gitkraken\lampen\HueApp Fedde en Siem\HueApp Fedde en Siem\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-150.png">
       <PackagePath>appiconStoreLogo.scale-150.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\fedde\Downloads\HueApp Fedde en Siem\HueApp Fedde en Siem\HueApp Fedde en Siem\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-200.png">
+    <AppxPackagedFile Include="D:\School\Gitkraken\lampen\HueApp Fedde en Siem\HueApp Fedde en Siem\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-200.png">
       <PackagePath>appiconStoreLogo.scale-200.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\fedde\Downloads\HueApp Fedde en Siem\HueApp Fedde en Siem\HueApp Fedde en Siem\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-400.png">
+    <AppxPackagedFile Include="D:\School\Gitkraken\lampen\HueApp Fedde en Siem\HueApp Fedde en Siem\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-400.png">
       <PackagePath>appiconStoreLogo.scale-400.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\fedde\Downloads\HueApp Fedde en Siem\HueApp Fedde en Siem\HueApp Fedde en Siem\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-100.png">
+    <AppxPackagedFile Include="D:\School\Gitkraken\lampen\HueApp Fedde en Siem\HueApp Fedde en Siem\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-100.png">
       <PackagePath>appiconWideTile.scale-100.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\fedde\Downloads\HueApp Fedde en Siem\HueApp Fedde en Siem\HueApp Fedde en Siem\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-125.png">
+    <AppxPackagedFile Include="D:\School\Gitkraken\lampen\HueApp Fedde en Siem\HueApp Fedde en Siem\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-125.png">
       <PackagePath>appiconWideTile.scale-125.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\fedde\Downloads\HueApp Fedde en Siem\HueApp Fedde en Siem\HueApp Fedde en Siem\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-150.png">
+    <AppxPackagedFile Include="D:\School\Gitkraken\lampen\HueApp Fedde en Siem\HueApp Fedde en Siem\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-150.png">
       <PackagePath>appiconWideTile.scale-150.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\fedde\Downloads\HueApp Fedde en Siem\HueApp Fedde en Siem\HueApp Fedde en Siem\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-200.png">
+    <AppxPackagedFile Include="D:\School\Gitkraken\lampen\HueApp Fedde en Siem\HueApp Fedde en Siem\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-200.png">
       <PackagePath>appiconWideTile.scale-200.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\fedde\Downloads\HueApp Fedde en Siem\HueApp Fedde en Siem\HueApp Fedde en Siem\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-400.png">
+    <AppxPackagedFile Include="D:\School\Gitkraken\lampen\HueApp Fedde en Siem\HueApp Fedde en Siem\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-400.png">
       <PackagePath>appiconWideTile.scale-400.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\fedde\Downloads\HueApp Fedde en Siem\HueApp Fedde en Siem\HueApp Fedde en Siem\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-100.png">
+    <AppxPackagedFile Include="D:\School\Gitkraken\lampen\HueApp Fedde en Siem\HueApp Fedde en Siem\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-100.png">
       <PackagePath>dotnet_bot.scale-100.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\fedde\Downloads\HueApp Fedde en Siem\HueApp Fedde en Siem\HueApp Fedde en Siem\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-125.png">
+    <AppxPackagedFile Include="D:\School\Gitkraken\lampen\HueApp Fedde en Siem\HueApp Fedde en Siem\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-125.png">
       <PackagePath>dotnet_bot.scale-125.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\fedde\Downloads\HueApp Fedde en Siem\HueApp Fedde en Siem\HueApp Fedde en Siem\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-150.png">
+    <AppxPackagedFile Include="D:\School\Gitkraken\lampen\HueApp Fedde en Siem\HueApp Fedde en Siem\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-150.png">
       <PackagePath>dotnet_bot.scale-150.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\fedde\Downloads\HueApp Fedde en Siem\HueApp Fedde en Siem\HueApp Fedde en Siem\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-200.png">
+    <AppxPackagedFile Include="D:\School\Gitkraken\lampen\HueApp Fedde en Siem\HueApp Fedde en Siem\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-200.png">
       <PackagePath>dotnet_bot.scale-200.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\fedde\Downloads\HueApp Fedde en Siem\HueApp Fedde en Siem\HueApp Fedde en Siem\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-400.png">
+    <AppxPackagedFile Include="D:\School\Gitkraken\lampen\HueApp Fedde en Siem\HueApp Fedde en Siem\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-400.png">
       <PackagePath>dotnet_bot.scale-400.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\fedde\Downloads\HueApp Fedde en Siem\HueApp Fedde en Siem\HueApp Fedde en Siem\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\HueApp Fedde en Siem.deps.json">
-      <PackagePath>HueApp Fedde en Siem.deps.json</PackagePath>
+    <AppxPackagedFile Include="C:\Users\fedde\.nuget\packages\xunit.runner.visualstudio\2.8.2\build\net6.0\xunit.runner.visualstudio.testadapter.dll">
+      <PackagePath>xunit.runner.visualstudio.testadapter.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\fedde\.nuget\packages\xunit.runner.visualstudio\2.8.2\build\net6.0\xunit.runner.reporters.netcoreapp10.dll">
+      <PackagePath>xunit.runner.reporters.netcoreapp10.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\fedde\.nuget\packages\xunit.runner.visualstudio\2.8.2\build\net6.0\xunit.runner.utility.netcoreapp10.dll">
+      <PackagePath>xunit.runner.utility.netcoreapp10.dll</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\fedde\.nuget\packages\microsoft.windows.sdk.net.ref\10.0.19041.44\lib\net8.0\Microsoft.Windows.SDK.NET.dll">
       <PackagePath>Microsoft.Windows.SDK.NET.dll</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\fedde\.nuget\packages\microsoft.windows.sdk.net.ref\10.0.19041.44\lib\net8.0\WinRT.Runtime.dll">
       <PackagePath>WinRT.Runtime.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\fedde\.nuget\packages\castle.core\5.1.1\lib\net6.0\Castle.Core.dll">
+      <PackagePath>Castle.Core.dll</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\fedde\.nuget\packages\communitytoolkit.maui\9.1.1\lib\net8.0-windows10.0.19041\CommunityToolkit.Maui.dll">
       <PackagePath>CommunityToolkit.Maui.dll</PackagePath>
@@ -243,6 +252,9 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\fedde\.nuget\packages\microsoft.extensions.dependencyinjection.abstractions\8.0.0\lib\net8.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll">
       <PackagePath>Microsoft.Extensions.DependencyInjection.Abstractions.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\fedde\.nuget\packages\microsoft.extensions.http\2.1.1\lib\netstandard2.0\Microsoft.Extensions.Http.dll">
+      <PackagePath>Microsoft.Extensions.Http.dll</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\fedde\.nuget\packages\microsoft.extensions.logging\8.0.0\lib\net8.0\Microsoft.Extensions.Logging.dll">
       <PackagePath>Microsoft.Extensions.Logging.dll</PackagePath>
@@ -331,6 +343,18 @@
     <AppxPackagedFile Include="C:\Users\fedde\.nuget\packages\microsoft.windowsappsdk\1.5.240627000\lib\net6.0-windows10.0.18362.0\Microsoft.WindowsAppRuntime.Bootstrap.Net.dll">
       <PackagePath>Microsoft.WindowsAppRuntime.Bootstrap.Net.dll</PackagePath>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\fedde\.nuget\packages\moq\4.20.72\lib\net6.0\Moq.dll">
+      <PackagePath>Moq.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\fedde\.nuget\packages\moq.contrib.httpclient\1.4.0\lib\netstandard2.0\Moq.Contrib.HttpClient.dll">
+      <PackagePath>Moq.Contrib.HttpClient.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\fedde\.nuget\packages\system.diagnostics.eventlog\6.0.0\runtimes\win\lib\net6.0\System.Diagnostics.EventLog.Messages.dll">
+      <PackagePath>System.Diagnostics.EventLog.Messages.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\fedde\.nuget\packages\system.diagnostics.eventlog\6.0.0\runtimes\win\lib\net6.0\System.Diagnostics.EventLog.dll">
+      <PackagePath>System.Diagnostics.EventLog.dll</PackagePath>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\fedde\.nuget\packages\system.io.pipelines\9.0.0\lib\net8.0\System.IO.Pipelines.dll">
       <PackagePath>System.IO.Pipelines.dll</PackagePath>
     </AppxPackagedFile>
@@ -342,6 +366,18 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\fedde\.nuget\packages\system.text.json\9.0.0\lib\net8.0\System.Text.Json.dll">
       <PackagePath>System.Text.Json.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\fedde\.nuget\packages\xunit.abstractions\2.0.3\lib\netstandard2.0\xunit.abstractions.dll">
+      <PackagePath>xunit.abstractions.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\fedde\.nuget\packages\xunit.assert\2.9.0\lib\net6.0\xunit.assert.dll">
+      <PackagePath>xunit.assert.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\fedde\.nuget\packages\xunit.extensibility.core\2.9.0\lib\netstandard1.1\xunit.core.dll">
+      <PackagePath>xunit.core.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\fedde\.nuget\packages\xunit.extensibility.execution\2.9.0\lib\netstandard1.1\xunit.execution.dotnet.dll">
+      <PackagePath>xunit.execution.dotnet.dll</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\fedde\.nuget\packages\microsoft.maui.controls.core\8.0.82\lib\net8.0-windows10.0.19041\ar\Microsoft.Maui.Controls.resources.dll">
       <PackagePath>ar\Microsoft.Maui.Controls.resources.dll</PackagePath>
@@ -450,6 +486,9 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\fedde\.nuget\packages\microsoft.windowsappsdk\1.5.240627000\runtimes\win10-x64\native\Microsoft.WindowsAppRuntime.Bootstrap.dll">
       <PackagePath>Microsoft.WindowsAppRuntime.Bootstrap.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\School\Gitkraken\lampen\HueApp Fedde en Siem\HueApp Fedde en Siem\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\HueApp Fedde en Siem.deps.json">
+      <PackagePath>HueApp Fedde en Siem.deps.json</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\fedde\.nuget\packages\microsoft.maui.controls.compatibility\8.0.82\lib\net8.0-windows10.0.19041\Microsoft.Maui.Controls.Compatibility.pri">
       <PackagePath>Microsoft.Maui.Controls.Compatibility.pri</PackagePath>

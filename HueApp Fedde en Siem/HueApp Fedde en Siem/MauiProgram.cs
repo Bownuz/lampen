@@ -1,7 +1,11 @@
 ﻿using Microsoft.Extensions.Logging;
 using CommunityToolkit.Maui;
+using HueApp_Fedde_en_Siem.Onion.Presentation.ViewModels;
+using HueApp_Fedde_en_Siem.Onion.Application;
+using HueApp_Fedde_en_Siem.Onion.Domain;
 
-namespace HueApp_Fedde_en_Siem {
+namespace HueApp_Fedde_en_Siem
+{
     public static class MauiProgram {
         public static MauiApp CreateMauiApp() {
             var builder = MauiApp.CreateBuilder();
@@ -16,9 +20,11 @@ namespace HueApp_Fedde_en_Siem {
 #if DEBUG
             builder.Logging.AddDebug();
 #endif
-            //builder.Services.AddSingleton<IHueService, HueService>();
-            //builder.Services.AddTransient<LampViewModel>();
-            //builder.Services.AddTransient<MainPage>();
+            builder.Services.AddSingleton<HueConfiguration>();
+            builder.Services.AddSingleton<IHueService, HueAPIService>();
+            builder.Services.AddSingleton<MainPage>();
+            builder.Services.AddSingleton<MainPageViewModel>();
+            builder.Services.AddTransient<PopupTestViewModel>();
 
             return builder.Build();
         }

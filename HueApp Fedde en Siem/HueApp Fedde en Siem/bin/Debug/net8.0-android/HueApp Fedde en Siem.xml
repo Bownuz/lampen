@@ -4,6 +4,29 @@
         <name>HueApp Fedde en Siem</name>
     </assembly>
     <members>
+        <member name="T:HueApp_Fedde_en_Siem.Onion.Presentation.ViewModels.PopupTestViewModel">
+            <inheritdoc/>
+        </member>
+        <member name="P:HueApp_Fedde_en_Siem.Onion.Presentation.ViewModels.PopupTestViewModel.IsLampOn">
+            <inheritdoc cref="F:HueApp_Fedde_en_Siem.Onion.Presentation.ViewModels.PopupTestViewModel.isLampOn"/>
+        </member>
+        <member name="P:HueApp_Fedde_en_Siem.Onion.Presentation.ViewModels.PopupTestViewModel.Brightness">
+            <inheritdoc cref="F:HueApp_Fedde_en_Siem.Onion.Presentation.ViewModels.PopupTestViewModel.brightness"/>
+        </member>
+        <member name="P:HueApp_Fedde_en_Siem.Onion.Presentation.ViewModels.PopupTestViewModel.Hue">
+            <inheritdoc cref="F:HueApp_Fedde_en_Siem.Onion.Presentation.ViewModels.PopupTestViewModel.hue"/>
+        </member>
+        <member name="P:HueApp_Fedde_en_Siem.Onion.Presentation.ViewModels.PopupTestViewModel.Saturation">
+            <inheritdoc cref="F:HueApp_Fedde_en_Siem.Onion.Presentation.ViewModels.PopupTestViewModel.saturation"/>
+        </member>
+        <member name="P:HueApp_Fedde_en_Siem.Onion.Presentation.ViewModels.PopupTestViewModel.SelectedColor">
+            <inheritdoc cref="F:HueApp_Fedde_en_Siem.Onion.Presentation.ViewModels.PopupTestViewModel.selectedColor"/>
+        </member>
+        <member name="M:HueApp_Fedde_en_Siem.Onion.Presentation.ViewModels.PopupTestViewModel.OnIsLampOnChanged(System.Boolean)">
+            <summary>Executes the logic for when <see cref="P:HueApp_Fedde_en_Siem.Onion.Presentation.ViewModels.PopupTestViewModel.IsLampOn"/> just changed.</summary>
+            <param name="value">The new property value that was set.</param>
+            <remarks>This method is invoked right after the value of <see cref="P:HueApp_Fedde_en_Siem.Onion.Presentation.ViewModels.PopupTestViewModel.IsLampOn"/> is changed.</remarks>
+        </member>
         <member name="M:Microsoft.Maui.Controls.ColorAnimationExtensions_Button.TextColorTo(Microsoft.Maui.Controls.Button,Microsoft.Maui.Graphics.Color,System.UInt32,System.UInt32,Microsoft.Maui.Easing,System.Threading.CancellationToken)">
             <summary>
             Animates the TextColor of an <see cref = "T:Microsoft.Maui.ITextStyle"/> to the given color
@@ -123,6 +146,48 @@
             <param name = "easing">The easing function to be used in the animation</param>
             <param name = "token"><see cref = "T:System.Threading.CancellationToken"/></param>
             <returns>Value indicating if the animation completed successfully or not</returns>
+        </member>
+        <member name="T:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs">
+            <summary>
+            A helper type providing cached, reusable <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instances
+            for all properties generated with <see cref="T:CommunityToolkit.Mvvm.ComponentModel.ObservablePropertyAttribute"/>.
+            </summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.IsLampOn">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "IsLampOn" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.Brightness">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "Brightness" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.Hue">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "Hue" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.Saturation">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "Saturation" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.SelectedColor">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "SelectedColor" generated properties.</summary>
+        </member>
+        <member name="T:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs">
+            <summary>
+            A helper type providing cached, reusable <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instances
+            for all properties generated with <see cref="T:CommunityToolkit.Mvvm.ComponentModel.ObservablePropertyAttribute"/>.
+            </summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.IsLampOn">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "IsLampOn" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.Brightness">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "Brightness" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.Hue">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "Hue" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.Saturation">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "Saturation" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.SelectedColor">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "SelectedColor" generated properties.</summary>
         </member>
     </members>
 </doc>

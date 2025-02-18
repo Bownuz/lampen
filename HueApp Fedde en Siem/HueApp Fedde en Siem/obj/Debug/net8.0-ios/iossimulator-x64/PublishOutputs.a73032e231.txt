@@ -1,0 +1,1 @@
+D:\School\Gitkraken\lampen\HueApp Fedde en Siem\HueApp Fedde en Siem\bin\Debug\net8.0-ios\iossimulator-x64\publish\HueApp Fedde en Siem.deps.json
